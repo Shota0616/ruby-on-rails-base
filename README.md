@@ -1,1 +1,1 @@
-# ruby-on-railsのbase
+# ruby-on-rails base
