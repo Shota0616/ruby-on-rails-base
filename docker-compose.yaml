@@ -4,8 +4,8 @@ services:
     build: ./web
     container_name: web
     hostname: web
-    # volumes:
-    #   - ./web/conf/conf.d/:/etc/nginx/conf.d
+    volumes:
+      - ./web/conf/conf.d/:/etc/nginx/conf.d
     ports:
       - "8080:8000"
     environment:
