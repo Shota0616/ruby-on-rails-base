@@ -1,1 +1,1 @@
-# sql-generation
+# ruby-on-railsのbase
