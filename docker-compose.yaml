@@ -44,7 +44,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./app:/usr/src/app
+      - ./app:/rails
     environment:
       TZ: 'Asia/Tokyo'
     depends_on:
